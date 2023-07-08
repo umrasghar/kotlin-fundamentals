@@ -43,3 +43,18 @@ A method that prints a song description in this format:
 Oftentimes, you're required to complete profiles for online websites that contain mandatory and non-mandatory fields. For example, you can add your personal information and link to other people who referred you to sign up for the profile.
 
 In the initial code provided in the following code snippet, write a program which prints out a person's profile details.
+
+# 6. Foldable phones
+Typically, a phone screen turns on and off when the power button is pressed. In contrast, if a foldable phone is folded, the main inner screen on a foldable phone doesn't turn on when the power button is pressed.
+
+In the initial code provided in the following code snippet, write a FoldablePhone class that inherits from the Phone class. It should contain the following:
+
+A property that indicates whether the phone is folded.
+A different switchOn() function behavior than the Phone class so that it only turns the screen on when the phone isn't folded.
+Methods to change the folding state.
+
+# 7. Special auction
+Typically in an auction, the highest bidder determines the price of an item. In this special auction, if there's no bidder for an item, the item is automatically sold to the auction house at the minimum price.
+
+In the initial code provided in the following code snippet, you're given an auctionPrice() function that accepts a nullable Bid? type as an argument:
+
